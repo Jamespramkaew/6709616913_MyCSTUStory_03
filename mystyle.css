@@ -370,7 +370,7 @@ footer {
     }
 
     .pages {
-        
+        height: 2680px;
     }
 
     article {
@@ -392,5 +392,27 @@ footer {
 
     .header_ft p {
         font-size: 8px;
+    }
+
+    .pages {
+        float: left;
+        width: 100%;
+        height: 200px;
+    }
+
+    .pages-con {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+
+    article {
+        float: left;
+        width: 100%;
+    }
+
+    .etc {
+        float: left;
+        width: 100%;
     }
 }
