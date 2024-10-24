@@ -35,28 +35,8 @@ header p {
 
 .header_ft h1 {
     font-family: "Poppins";
-    font-size: 118px;
+    font-size: 109px;
     color: #E02D2E;
-}
-
-@media screen and (max-width: 768px) {
-    .header_ft h1 {
-        font-size: 46px;
-    }
-
-    .header_ft p {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .header_ft h1 {
-        font-size: 36px;
-    }
-
-    .header_ft p {
-        font-size: 12px;
-    }
 }
 
 .pages {
@@ -370,4 +350,47 @@ footer {
     color: #fff;
     background-color: #333;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header_ft h1 {
+        font-size: 46px;
+    }
+
+    .header_ft p {
+        font-size: 12px;
+    }
+
+    .flex-container {
+        width: 100%;
+    }
+
+    nav {
+        width: 20%;
+    }
+
+    .pages {
+        
+    }
+
+    article {
+        width: 80%;
+    }
+
+    .etc {
+        /* clear: both; */
+        float: right;
+        width: 80%;
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header_ft h1 {
+        font-size: 36px;
+    }
+
+    .header_ft p {
+        font-size: 8px;
+    }
 }
